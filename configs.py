@@ -5,10 +5,10 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "12124605"))
-    API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
+    API_ID = int(os.getenv("API_ID", "28295646"))
+    API_HASH = os.getenv("API_HASH", "bb8ef27a46c976579e853033f023ad3f")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6074794780:AAHepQzu6UDR30-AQThBZsaP_iG-wDbiz9A")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisksearchonlinebot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
